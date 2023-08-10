@@ -47,6 +47,7 @@ public class Calculadora {
     public static void main(String[] args) {
          Scanner in = new Scanner( System.in);
          int opc;
+int opc1;
          
          
          do{
@@ -56,11 +57,32 @@ public class Calculadora {
              opc= in.nextInt();
              switch (opc){
                  case 1:
-                     System.out.println("\t CALCULADORA " + "\n 1.Suma  \n 2.Resta  "
-                             + "\n 3.multiplicacion \n 4.division "
-                            + " \nIngresa dos numeros ");
+                  System.out.println("\t CALCULADORA " + "\n 1.Suma  \n 2.Resta  "
+                             + "\n 3.multiplicacion \n 4.division ");
+                     opc1=in.nextInt();
+                     
+                     System.out.println("Ingrese dos numeros ");
                      num1 = in.nextDouble();
                      num2= in.nextDouble();
+                     
+                     switch(opc1){
+                         case 1:
+                             resultado = num1 + num2;
+                             System.out.println(" suma es :"+ resultado);
+                             break;
+                          case 2:
+                              resultado = num1 - num2;
+                             System.out.println(" resta es :"+ resultado);
+                           break;
+                          case 3:
+                              resultado = num1 * num2;
+                             System.out.println(" multiplicacion es :"+ resultado);
+                              break;
+                          case 4:
+                              resultado = num1 / num2;
+                             System.out.println(" division es :"+ resultado);
+                              break;
+                     }
                      break;
                  case 2:
                     System.out.println("\t Funciones Trigonometicas"+"\n Ingresa un numero"); 
