@@ -1,0 +1,48 @@
+package com.mycompany.calculadora;
+
+import java.util.Scanner;
+
+public class Calculadora {
+// variables
+        double num1;
+        double num2;
+        double resultado;
+        
+ //setts y getts
+    public double getNum2() {
+        return num2;   
+    }        
+
+    public void setNum2(double num2) {
+        this.num2 = num2;
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+   
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+///////// Constructor 
+
+    public Calculadora(double num1, double num2, double resultado) {
+        this.num1= num1;
+        this.num2=num2;
+        this.resultado=resultado;
+    }
+   
+    ////////////////// main 
+    
+    public static void main(String[] args) {
+         Scanner in = new Scanner( System.in);
+         
+         do{
+             System.out.println("\t CALCULADORA " + "\n 1.Suma \n Resta \n multiplicacion \n division "
+             + "");
+         }while()
+         
+        
+    }
+}
