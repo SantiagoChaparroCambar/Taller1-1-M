@@ -84,8 +84,13 @@ public class Calculadora {
                     
                      break;
                  case 3:
-                     System.out.println("\t Raiz Enesima \n ingrese un numero");
+                     System.out.println("\t Raiz Enesima \n Ingrese el numero base ");
                      num1 = in.nextDouble();
+                  System.out.println("Ingrese el índice de la raíz enésima: ");
+                      num2 = in.nextDouble();
+                  resultado= Math.pow(num1, 1.0 / num2);
+                  System.out.println("La Raiz " + num2 + "-enesima de "+ num1 + "es: "+ resultado ); 
+                               
                      break;
                  case 4:
                      System.out.println("\t potencia enesima \n ingrese un numero");
