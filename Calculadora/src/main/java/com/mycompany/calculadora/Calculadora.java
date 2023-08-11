@@ -93,8 +93,13 @@ public class Calculadora {
                                
                      break;
                  case 4:
-                     System.out.println("\t potencia enesima \n ingrese un numero");
+                     System.out.println("\t potencia enesima \n ingrese un numero base");
                      num1 = in.nextDouble();
+                   System.out.println(" ingrese un numero exponente");
+                               num2=in.nextDouble();
+                  resultado = math.pow(num1,num2);
+                   System.out.println(num1 +" Elevado  A la "+ num2 +" Es igual  A " + resultado);            
+                  
                      break;
                  case 5:
                      System.out.println("\t IVA  \n ingrese un numero");
