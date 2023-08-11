@@ -102,8 +102,12 @@ public class Calculadora {
                   
                      break;
                  case 5:
-                     System.out.println("\t IVA  \n ingrese un numero");
+                     System.out.println("\t IVA  \n ingrese un numero ");
                      num1 = in.nextDouble();
+                    System.out.println("\t Ingresa el porcentaje : ");
+                  num2 = in.nextDouble();
+                           resultado = num1 + num1*num2;
+                            System.out.println(" El  valor final es de :  "+ resultado);
                      break;
              }
             
