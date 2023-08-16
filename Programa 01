@@ -6,7 +6,7 @@ public class Calculadora {
 // variables
          static double num1;
          static double num2;
-        double resultado;
+         static double resultado;
  //////////////////////
 
     public double getNum1() {
@@ -47,10 +47,11 @@ public class Calculadora {
     public static void main(String[] args) {
          Scanner in = new Scanner( System.in);
          int opc;
-int opc1;
-         
+
          
          do{
+              int opc1;
+         
              System.out.println("1. Funciones basicas \n 2.Funciones Trigonometricas "
                      + "\n 3.Raiz enesima \n 4. potencia enesima \n 5. IVA");
              System.out.println("Ingrese una opcion ");
