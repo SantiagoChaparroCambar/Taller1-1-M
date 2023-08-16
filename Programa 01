@@ -95,6 +95,7 @@ public class Calculadora {
                     opc1=in.nextInt();
                      System.out.println("Ingrese un numero ");
                      num1 = in.nextDouble();
+                num1 = Math.toRadians(in.nextDouble()); // Convertimos a radian
                     switch(opc1){
                         case 1:
                             resultado= Math.sin(num1);
