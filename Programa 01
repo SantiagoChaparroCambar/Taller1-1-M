@@ -79,6 +79,10 @@ int opc1;
                              System.out.println(" multiplicacion es :"+ resultado);
                               break;
                           case 4:
+                                  if(num1=0 || num2=0){
+                                  System.out.println("Error Division por Cero");
+                                  main();
+                                   }
                               resultado = num1 / num2;
                              System.out.println(" division es :"+ resultado);
                               break;
@@ -100,6 +104,10 @@ int opc1;
                             System.out.println("El coseno del numero es "+ resultado);
                         break;
                         case 3:
+                            if(num1=90 || num1=270){
+                                  System.out.println("Error Tangenge Inconsistente");
+                                  main();
+                              }
                             resultado= Math.tan(num1);
                             System.out.println("El tangente del numero es "+ resultado);
                             break;
