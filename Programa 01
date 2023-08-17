@@ -121,7 +121,7 @@ public class Calculadora {
                      num1 = in.nextDouble();
                      break;
              }
-            
+            thread.sleep(500);
          }while(opc <5);
          
         
