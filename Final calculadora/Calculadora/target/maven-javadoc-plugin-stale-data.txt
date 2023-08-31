@@ -1,0 +1,48 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/Santiago/Documents/Final calculadora/Calculadora/src/main/java;C:/Users/Santiago/Documents/Final calculadora/Calculadora/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Santiago/Documents/Final calculadora/Calculadora/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Calculadorafinal 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Calculadorafinal 1.0-SNAPSHOT API'
+Calculadora
+com.mycompany.calculadora
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\src\main\java = 1693391091885
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\generated-sources\annotations = 1693391606277
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\allclasses-index.html = 1693391614731
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\allpackages-index.html = 1693391614737
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\copy.svg = 1693391614845
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\element-list = 1693391614372
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\help-doc.html = 1693391614834
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\index-all.html = 1693391614772
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\index.html = 1693391614707
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\member-search-index.js = 1693391614747
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\module-search-index.js = 1693391614739
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\overview-summary.html = 1693391614826
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\overview-tree.html = 1693391614670
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\package-search-index.js = 1693391614742
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\script.js = 1693391614843
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\search-page.js = 1693391614865
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\search.html = 1693391614777
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\search.js = 1693391614850
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\serialized-form.html = 1693391614559
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\stylesheet.css = 1693391614840
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\tag-search-index.js = 1693391614749
+C:\Users\Santiago\Documents\Final calculadora\Calculadora\target\apidocs\type-search-index.js = 1693391614744
